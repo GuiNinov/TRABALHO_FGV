@@ -12,15 +12,13 @@
         <div class="left-side">
             <h2>Loja de Carros</h2>
             <a href="./index.php">Produtos</a></br></br>
-            <a href="./chart2.php" class="active">Carrinho</a></br></br>
+            <a href="./chart2.php">Carrinho</a></br></br>
             <a href="./dev.php" class="">Perfil</a></br></br>
-            <a href="./config.php" class="">Configurações</a>
+            <a href="./config.php" class="active">Configurações</a>
         </div>
         <div class="chart">
             <h2>Olá</h2>
-            <p>Gostaria de comprar um <?php echo($_GET['car']) ?></p>
-            <p>por apenas  <?php echo($_GET['price']) ?> ?</p>
-            <button class="chart-btn" onclick="alert('Compra efetuada com sucesso!')">Comprar agora!</button>
+            <p>Está página ainda está <br>em desenvolvimento</p>
         </div>
     </div>
 </body>

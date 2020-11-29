@@ -13,8 +13,8 @@
             <h2>Loja de Carros</h2>
             <a href="./index.php" class="active">Produtos</a></br></br>
             <a href="./chart2.php">Carrinho</a></br></br>
-            <a>Perfil</a></br></br>
-            <a>Configurações</a>
+            <a href="./dev.php" class="">Perfil</a></br></br>
+            <a href="./config.php" class="">Configurações</a>
         </div>
         <div class="products">
             <div class="car-area">
