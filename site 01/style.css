@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+
+body {
+    background-color: mediumspringgreen;
+    font-family: 'Caveat', cursive;
+}
+
+.container {
+    text-align: center;
+}
+
+.content-area {
+    background-color: #FFF;
+    height: 600px;
+    border-radius: 24px;
+    margin: auto auto;
+    overflow-y: scroll;
+}
+
+.input-field{
+    border-radius: 50px;
+    border:none;
+    background-color: #E9E9E9;
+    padding: 5px 10px;
+    outline:none;
+}
+
+
+.btn {
+    border-radius: 50px;
+    border:none;
+    background-color: orangered;
+    color: #E9E9E9;
+    padding: 5px 50px;
+}
+
+.valuation-form {
+    padding-bottom: 10px;
+    
+}
+
+@media(min-height:600px) {
+    div.responsive {
+        display: none;
+    }
+    p.alert {
+        padding-top: 75px;
+        font-size: 36px;
+    }
+    p.alert::before {
+        content: "Nossa plataforma ainda não está disponível para o seu dispositivo.";
+    }
+    
+}

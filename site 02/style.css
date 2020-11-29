@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background-color: #e8e8e8;
+    margin: 0;
+    font-family: 'Texturina', serif;
+}
+
+.box {
+    display: flex;
+}
+
+.left-side {
+    width: 25%;
+    height: 500px;
+    background-color:#F05065;
+    color: white;
+    text-align: center;
+}
+
+.left-side h3 {
+    margin-top: 25px;
+}
+
+
+.left-side a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+}
+
+
+.left-side a.active {
+    padding-bottom: 5px ;
+    border-bottom: 1px solid #f58896;
+}
+
+.left-side a:hover {
+    color:#f58896;
+}
+
+
+.products {
+    width: 75%;
+    display: flex;
+    margin: 25px 10px;
+    justify-content: space-between;
+}
+.car-area {
+    width: 30%;
+    height: 175px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+
+}
+
+.car-area:hover {
+    border-color: #F05065;
+    transition: border .5s;
+    border: 1px solid #f58896;
+    cursor: pointer;
+}
+
+.car-header {
+    height: 125px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.car-img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.car-footer {
+    height: 50px;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.car-footer p {
+padding-top:3px ;
+}
+
+.car-btn {
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    background-color: #f58896;
+    border-radius: 40px;
+    padding: 4px 30%;
+}
+
+.chart {
+    margin-left:5% ;
+    align-content: center;
+    text-align: center;
+}
+
+.chart p {
+    font-size:28px ;
+}
+.chart h3 {
+    font-size:32px ;
+}
+
+.chart-btn {
+    font-size:24px ;
+    background-color: #f58896;
+    padding: 8px 25%;
+    border: none;
+    border-radius: 50px;
+    outline: transparent;
+
+}
+
+@media(min-height:600px) {
+    div.box {
+        display: none;
+    }
+    body{
+        background-color: #F05065;
+    }
+    p.alert {
+        padding-top: 75px;
+        color: #fff;
+        font-size: 36px;
+    }
+    p.alert::before {
+        content: "Nossa plataforma ainda não está disponível para o seu dispositivo.";
+    }
+    
+}
