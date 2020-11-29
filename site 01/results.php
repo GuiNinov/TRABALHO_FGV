@@ -15,7 +15,7 @@
                 <h3 class="title-area">Fala, <?php echo($_GET['name'])?> !!</h3>
                 <p>O valor justo previsto para a <?php echo($_GET['company'])?> é 
                     <?php 
-                        echo(intval($_GET['cashflow']/$_GET['descount'] - $_GET['growth']))
+                        echo(intval($_GET['cashflow']*100/$_GET['descount'] - $_GET['growth']))
                     ?> dinheiros
                 
                 </p>
