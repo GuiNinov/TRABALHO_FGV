@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #FF7247;
+    padding: 15px;
+}
+
+h1 {
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+p {
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.images {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+@media(min-height:600px) {
+    div.main-div {
+        display: none;
+    }
+    p.message {
+        padding-top: 75px;
+        color: #fff;
+        font-size: 36px;
+    }
+    p.message::before {
+        content: "Nossa plataforma ainda não está disponível para o seu dispositivo.";
+    }
+    
+}
