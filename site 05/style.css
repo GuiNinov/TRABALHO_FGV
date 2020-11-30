@@ -75,14 +75,17 @@ button:hover{
 }
 
 @media(min-height:600px) {
+
     div.conteudo {
         display: none;
     }
+
     p.aviso {
         padding-top: 75px;
         color: #fff;
         font-size: 36px;
     }
+    
     p.aviso::before {
         content: "Deite o celular para conseguir acessar o conteudo! Caso nao esteja utilizando um celular, recomendamos que use um para acessar o site...";
     }
