@@ -9,27 +9,30 @@
     <title>Suitless</title>
 </head>
 <body>
-    <h4><img src="./logo.png"></h4>
-    <div class="mensagem">
-
-        <p class="mensagem_principal"><b>"Be a change maker. Connect with people just like you."</b></p>
-        <br><br>
-
-        <p class="descrição">É o lema da nova rede social do para pessoas que pensam fora da caixa!<p>
-        <br><br>
-
-        <form action="sobre.php" method="get">
-            <p>Digite o seu email para ficar por dentro!</p><br>
-            <label for="name">Nome completo: </label>
-            <input type="nome" class="nome_input" name="name" required>
+    <p class="responsividade"></p>
+    <div class="site">
+        <h4><img src="./logo.png"></h4>
+        <div class="mensagem">
+    
+            <p class="mensagem_principal"><b>"Be a change maker. Connect with people just like you."</b></p>
             <br><br>
-            <label for="email">Email: </label>
-            <input type="email" class="email_input" name="email" required>
+    
+            <p class="descrição">É o lema da nova rede social voltada para pessoas que pensam fora da caixa!<p>
             <br><br>
-            <button type="submit" class="ver_mais">Enviar</button>
-            <br><br>
-        </form>
-
+    
+            <form action="sobre.php" method="get">
+                <p>Digite o seu email para ficar por dentro!</p><br>
+                <label for="name">Nome completo: </label>
+                <input type="nome" class="nome_input" name="name" required>
+                <br><br>
+                <label for="email">Email: </label>
+                <input type="email" class="email_input" name="email" required>
+                <br><br>
+                <button type="submit" class="ver_mais">Enviar</button>
+                <br><br>
+            </form>
+    
+        </div>
     </div>
 </body>
 </html>

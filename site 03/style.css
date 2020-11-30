@@ -47,3 +47,22 @@ h4 {
     outline: none;
     border-radius: 50px;
 }
+
+
+@media(min-height:600px) {
+
+    div.site {
+        display: none;
+    }
+
+    .responsividade {
+        padding-top: 75px;
+        color: #fff;
+        font-size: 36px;
+    }
+    
+    .responsividade::before {
+        content: "Deite o celular para conseguir acessar o conteudo! Caso nao esteja utilizando um celular, recomendamos que use um para acessar o site...";
+    }
+    
+}
