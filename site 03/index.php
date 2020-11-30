@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <title>Suitless</title>
 </head>
 <body>
-    <div class="navbar">
-        <img src="logo.png" alt="">
-    </div>
-    <div class="row">
-        <div class="title">
-            <h1>Título explicativo</h1>
-            <p>"Be a change maker. Connect with people just like you." É o Lema dessa rede social! <br> blablablablabla <a href="./sobre.php" type="button">Para saber mais, clique aqui!</a></p>
-        </div>
-        <div class="images">
-            <img src="" alt="alguma_imagem_1"><br>
-            <img src="" alt="alguma_imagem_2"><br>
-            <img src="" alt="alguma_imagem_3">
-        </div>
+    <h4><img src="./logo.png"></h4>
+    <div class="mensagem">
+
+        <p class="mensagem_principal"><b>"Be a change maker. Connect with people just like you."</b></p>
+        <br><br>
+
+        <p class="descrição">É o lema da nova rede social do para pessoas que pensam fora da caixa!<p>
+        <br><br>
+
+        <form action="sobre.php" method="get">
+            <p>Digite o seu email para ficar por dentro!</p><br>
+            <label for="name">Nome completo: </label>
+            <input type="nome" class="nome_input" name="name" required>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" class="email_input" name="email" required>
+            <br><br>
+            <button type="submit" class="ver_mais">Enviar</button>
+            <br><br>
+        </form>
+
     </div>
 </body>
 </html>

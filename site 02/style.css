@@ -136,7 +136,7 @@ padding-top:3px ;
         font-size: 36px;
     }
     p.alert::before {
-        content: "Nossa plataforma ainda não está disponível para o seu dispositivo.";
+        content: "A nossa loja de carros está disponível somente para celulares! Se estiver usando um e estiver lendo isso, posicione o celular no formato retrato (na horizontal, ou deitado, se preferir).";
     }
     
 }

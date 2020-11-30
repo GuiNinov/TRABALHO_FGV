@@ -1,18 +1,32 @@
-.navbar {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
     background-color: #FF7247;
-    padding: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-    margin-left: 200px;
-    margin-top: 50px;
-    font-size: 40px;
+h4 {
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: #FFF;
 }
 
-p {
-    margin-left: 200px;
-    margin-top: 50px;
-    font-size: 20px;
+.ver_mais {
+    padding: 7px;
+    background-color: #FFF;
+    color: #FF7247;
+    border-radius: 50px;
+    border: none;
+}
+
+.mensagem {
+    text-align: center;
+    color: #FFF;
+}
+
+.logo_image {
+    margin-left: 30%;
 }
 
 .images {
@@ -20,17 +34,16 @@ p {
     margin-top: 50px;
 }
 
-@media(min-height:600px) {
-    div.main-div {
-        display: none;
-    }
-    p.message {
-        padding-top: 75px;
-        color: #fff;
-        font-size: 36px;
-    }
-    p.message::before {
-        content: "Nossa plataforma ainda não está disponível para o seu dispositivo.";
-    }
-    
+.email_input {
+    border: none;
+    padding: 7px;
+    outline: none;
+    border-radius: 50px;
+}
+
+.nome_input {
+    border: none;
+    padding: 7px;
+    outline: none;
+    border-radius: 50px;
 }
